@@ -1,4 +1,7 @@
 TODO:
 
-1. Calculate  one-time hitting distance 𝐻(𝑣0, 𝑣𝑘). Dont forget to put sigma (4|V|)
-2. Calculate hitpath H˜ (𝑣𝑖, 𝑣𝑗)
+
+Finished:
+- Calculate one-time hitting distance 𝐻(𝑣0, 𝑣𝑘). Dont forget to put sigma (4|V|) [v]
+- Calculate hitpath H˜ (𝑣𝑖, 𝑣𝑗) [v]
+- Calculate similarity [v]
