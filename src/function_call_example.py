@@ -12,7 +12,7 @@ from model import GCN
 
 # PREPROCESSING: transform dataset into networkx data
 dataset = TUDataset("/", name='MUTAG')
-data = 2
+data = 0
 print('dataset', dataset[1])
 
 # print("DATASET: ", dataset)
@@ -35,14 +35,19 @@ S = calculate_similarity_matrix(G)
 
 # AP Clustering
 from sklearn.cluster import AffinityPropagation
-clustering = AffinityPropagation(affinity='precomputed').fit(S)
-labels = {} 
-for i, l in enumerate(clustering.labels_):
-    labels[i] = l
+clustering = AffinityPropagation(affinity='precomputed', random_state=123).fit(S)
+
     
 pos = nx.spring_layout(G, seed=212)
 
-nx.draw(G, pos=pos)
-nx.draw_networkx_labels(G, pos, labels, font_size=22, font_color="black")
-plt.show()
+print('cluster center: ', clustering.cluster_centers_indices_)
 
+labels = {} 
+for i, l in enumerate(clustering.labels_):
+    labels[i] = str(i)+" - "+str(l)
+    if i in clustering.cluster_centers_indices_:
+        labels[i] = labels[i] +" ++"
+    
+nx.draw(G, pos=pos)
+nx.draw_networkx_labels(G, pos, labels, font_size=15, font_color="black")
+plt.show()
