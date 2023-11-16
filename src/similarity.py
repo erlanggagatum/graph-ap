@@ -3,12 +3,16 @@ import numpy as np
 import random
 import math
 
+
 # calculate euclidean distance
 def calculate_euclidean_matrix(G):
     W = np.zeros((len(G.nodes), len(G.nodes)))
     for i in G.nodes:
         for j in G.nodes:
-            W[i][j] = round(np.linalg.norm(G.nodes[i]['node_features'] - G.nodes[j]['node_features']), 1)
+            val = round(np.linalg.norm(G.nodes[i]['node_features'] - G.nodes[j]['node_features']), 1)
+            W[i][j] = val
+            W[j][i] = val
+                
     return W
 
 def calculate_transition_probability_matrix(G):
@@ -27,9 +31,17 @@ def calculate_transition_probability_matrix(G):
             P[i][neighbor] = round(W[i][neighbor]/denum, 2)
     return P
 
-def calculate_hitpath(G, s, e, max_steps = 10, max_iter = 100):
+def calculate_hitpath(G, s, e, max_steps = 10, max_iter = 100, transition_probability = None):
     max_steps = G.number_of_nodes()//2
-    transition_probability = calculate_transition_probability_matrix(G)
+    
+    # 
+    # transition_probability = calculate_transition_probability_matrix(G)
+    # 
+    # 
+    # 
+    # 
+    
+    
     # print(transition_probability)
     sigma = 4 * G.number_of_nodes()  
     
@@ -82,15 +94,17 @@ def calculate_hitpath(G, s, e, max_steps = 10, max_iter = 100):
     
     return hitpath
 
-def calculate_hitpath_matrix(G):
+def calculate_hitpath_matrix(G, transition_probability = None):
     H = np.zeros((len(G.nodes), len(G.nodes)))
     for i in G.nodes:
         for j in G.nodes:
-            H[i][j] = calculate_hitpath(G, i, j, max_iter=100)
+            H[i][j] = calculate_hitpath(G, i, j, max_iter=100, transition_probability=transition_probability)
     return H
 
+def testt():
+    print('ini bisa blooookkkk')
 
-def calculate_similarity(G, H, s, e, gamma = 0.8):
+def calculate_similarity(G, H, s, e, gamma = 0.8, precalc_shortest_path_length = None):
     '''
     G = graph,
     H = Hitpath matrix of graph,
@@ -100,18 +114,34 @@ def calculate_similarity(G, H, s, e, gamma = 0.8):
     '''
     
     similarity = 0
-    shortest_path_length = nx.shortest_path_length(G, s, e)
+    # shortest_path_length = nx.shortest_path_length(G, s, e)
+    shortest_path_length = precalc_shortest_path_length[s][e]
+
     # print(similarity)
     similarity = (gamma * math.exp(-shortest_path_length)) + ((1-gamma) * ((H[s][e] - H[e][s])**2))
     
     return similarity
 
+
+# precalc_shortest_path_length = None
+
 def calculate_similarity_matrix(G, gamma = 0.8):
-    H = calculate_hitpath_matrix(G)
+    transition_probability = calculate_transition_probability_matrix(G)
+    H = calculate_hitpath_matrix(G, transition_probability=transition_probability)
+    
+    # print('somting wong')
+    precalc_shortest_path_length = np.zeros((len(G.nodes), len(G.nodes)))
+    for i in G.nodes:
+        for j in G.nodes:
+            precalc_shortest_path_length[i][j] = nx.shortest_path_length(G, i, j)
+
     
     S = np.zeros((len(G.nodes), len(G.nodes)))
     for i in G.nodes:
         for j in G.nodes:
-            S[i][j] = calculate_similarity(G, H, i, j, gamma=0.8)
+            S[i][j] = calculate_similarity(G, H, i, j, gamma=0.8, 
+                                           precalc_shortest_path_length=precalc_shortest_path_length)
+            
     
+    # print('somting wong')
     return S
