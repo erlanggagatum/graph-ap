@@ -32,10 +32,12 @@ print("embedding", emb)
 emb = emb.detach()
 G = data_transformation(dataset[data].edge_index, emb)
 S = calculate_similarity_matrix(G)
+# np.fill_diagonal(S, np.amin(S))
 
+print("similarity", S)
 # AP Clustering
 from sklearn.cluster import AffinityPropagation
-clustering = AffinityPropagation(affinity='precomputed', random_state=123).fit(S)
+clustering = AffinityPropagation(affinity='precomputed', random_state=123, max_iter=500).fit(S)
 
     
 pos = nx.spring_layout(G, seed=212)

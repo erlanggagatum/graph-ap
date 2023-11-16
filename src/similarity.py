@@ -102,7 +102,7 @@ def calculate_similarity(G, H, s, e, gamma = 0.8):
     similarity = 0
     shortest_path_length = nx.shortest_path_length(G, s, e)
     # print(similarity)
-    similarity = (gamma * math.exp(-shortest_path_length)) + ((1-gamma) * (H[s][e] - H[e][s])*2)
+    similarity = (gamma * math.exp(-shortest_path_length)) + ((1-gamma) * ((H[s][e] - H[e][s])**2))
     
     return similarity
 
@@ -115,4 +115,3 @@ def calculate_similarity_matrix(G, gamma = 0.8):
             S[i][j] = calculate_similarity(G, H, i, j, gamma=0.8)
     
     return S
-    
