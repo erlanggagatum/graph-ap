@@ -7,11 +7,21 @@ import math
 # calculate euclidean distance
 def calculate_euclidean_matrix(G):
     W = np.zeros((len(G.nodes), len(G.nodes)))
+    
+    # i_s = 0
+    # j_s = 0
+    
     for i in G.nodes:
         for j in G.nodes:
+            # if (i <= j):
+            #     # continue
             val = round(np.linalg.norm(G.nodes[i]['node_features'] - G.nodes[j]['node_features']), 1)
             W[i][j] = val
             W[j][i] = val
+        # i_s+=1
+        # j_s+=1
+        # if j_s == i_s:
+        #     break
                 
     return W
 
@@ -53,8 +63,6 @@ def calculate_hitpath(G, s, e, max_steps = 10, max_iter = 100, transition_probab
         # save route
         route = [s] 
         step_counter = 0
-        
-        # print(s)
         hitpath = 0
         
         # do random walk bounded by max steps
@@ -139,7 +147,7 @@ def calculate_similarity_matrix(G, gamma = 0.8):
     S = np.zeros((len(G.nodes), len(G.nodes)))
     for i in G.nodes:
         for j in G.nodes:
-            S[i][j] = calculate_similarity(G, H, i, j, gamma=0.8, 
+            S[i][j] = calculate_similarity(G, H, i, j, gamma=gamma, 
                                            precalc_shortest_path_length=precalc_shortest_path_length)
             
     

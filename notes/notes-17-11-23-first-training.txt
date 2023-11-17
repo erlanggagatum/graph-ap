@@ -1,0 +1,57 @@
+Fold 0/10
+=== Base model ===
+epoch 0; loss: 0.69; train_acc: 0.33; val_acc: 0.4
+epoch 1; loss: 0.69; train_acc: 0.33; val_acc: 0.4
+epoch 2; loss: 0.69; train_acc: 0.33; val_acc: 0.4
+epoch 3; loss: 0.69; train_acc: 0.67; val_acc: 0.67
+epoch 4; loss: 0.69; train_acc: 0.72; val_acc: 0.6
+epoch 5; loss: 0.69; train_acc: 0.67; val_acc: 0.6
+epoch 6; loss: 0.69; train_acc: 0.67; val_acc: 0.6
+epoch 7; loss: 0.69; train_acc: 0.67; val_acc: 0.6
+epoch 8; loss: 0.69; train_acc: 0.67; val_acc: 0.6
+epoch 9; loss: 0.69; train_acc: 0.67; val_acc: 0.6
+Accuracy: 0.7368421052631579
+=== Experiment model ===
+process training
+epoch 0; loss: 0.69; train_acc: 0.67; test_acc: 0.6
+epoch 1; loss: 0.69; train_acc: 0.67; test_acc: 0.6
+procees testing
+Accuracy: 0.7368421052631579
+Fold 1/10
+=== Base model ===
+epoch 0; loss: 0.69; train_acc: 0.34; val_acc: 0.33
+epoch 1; loss: 0.69; train_acc: 0.34; val_acc: 0.33
+epoch 2; loss: 0.69; train_acc: 0.34; val_acc: 0.33
+epoch 3; loss: 0.69; train_acc: 0.54; val_acc: 0.53
+epoch 4; loss: 0.69; train_acc: 0.72; val_acc: 0.8
+epoch 5; loss: 0.69; train_acc: 0.74; val_acc: 0.87
+epoch 6; loss: 0.69; train_acc: 0.67; val_acc: 0.67
+epoch 7; loss: 0.69; train_acc: 0.66; val_acc: 0.67
+epoch 8; loss: 0.69; train_acc: 0.66; val_acc: 0.67
+epoch 9; loss: 0.69; train_acc: 0.66; val_acc: 0.67
+Accuracy: 0.7368421052631579
+=== Experiment model ===
+process training
+epoch 0; loss: 0.69; train_acc: 0.66; test_acc: 0.67
+epoch 1; loss: 0.69; train_acc: 0.66; test_acc: 0.67
+procees testing
+Accuracy: 0.7368421052631579
+Fold 2/10
+=== Base model ===
+epoch 0; loss: 0.69; train_acc: 0.34; val_acc: 0.33
+epoch 1; loss: 0.69; train_acc: 0.34; val_acc: 0.33
+epoch 2; loss: 0.69; train_acc: 0.34; val_acc: 0.33
+epoch 3; loss: 0.69; train_acc: 0.62; val_acc: 0.8
+epoch 4; loss: 0.69; train_acc: 0.73; val_acc: 0.8
+epoch 5; loss: 0.69; train_acc: 0.67; val_acc: 0.67
+epoch 6; loss: 0.69; train_acc: 0.66; val_acc: 0.67
+epoch 7; loss: 0.69; train_acc: 0.66; val_acc: 0.67
+epoch 8; loss: 0.69; train_acc: 0.66; val_acc: 0.67
+epoch 9; loss: 0.69; train_acc: 0.66; val_acc: 0.67
+Accuracy: 0.7368421052631579
+=== Experiment model ===
+process training
+epoch 0; loss: 0.69; train_acc: 0.66; test_acc: 0.67
+epoch 1; loss: 0.69; train_acc: 0.66; test_acc: 0.67
+procees testing
+Accuracy: 0.7368421052631579
