@@ -55,3 +55,4 @@ epoch 0; loss: 0.69; train_acc: 0.66; test_acc: 0.67
 epoch 1; loss: 0.69; train_acc: 0.66; test_acc: 0.67
 procees testing
 Accuracy: 0.7368421052631579
+Accuracy: 0.7368421052631579
