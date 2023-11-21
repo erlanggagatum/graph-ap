@@ -1,0 +1,270 @@
+Fold 0/10
+=== Base model ===
+epoch 0 loss: 0,6929 train_acc: 0,33333 val_acc: 0,4 test: 0,32
+epoch 1 loss: 0,70721 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 2 loss: 0,69816 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 3 loss: 0,69531 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 4 loss: 0,69991 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 5 loss: 0,69919 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 6 loss: 0,70086 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 7 loss: 0,70057 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 8 loss: 0,69583 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 9 loss: 0,686 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+Accuracy: 0,6842105263157895
+=== Experiment model ===
+process training
+epoch 0 loss: 0,70021 train_acc: 0,66667 test_acc: 0,6
+epoch 1 loss: 0,67693 train_acc: 0,66667 test_acc: 0,6
+epoch 2 loss: 0,70587 train_acc: 0,66667 test_acc: 0,6
+epoch 3 loss: 0,69597 train_acc: 0,66667 test_acc: 0,6
+epoch 4 loss: 0,69773 train_acc: 0,66667 test_acc: 0,6
+epoch 5 loss: 0,69887 train_acc: 0,66667 test_acc: 0,6
+epoch 6 loss: 0,71266 train_acc: 0,66667 test_acc: 0,6
+epoch 7 loss: 0,70837 train_acc: 0,66667 test_acc: 0,6
+epoch 8 loss: 0,70384 train_acc: 0,66667 test_acc: 0,6
+epoch 9 loss: 0,69649 train_acc: 0,66667 test_acc: 0,6
+process testing
+Accuracy: 0,6842105263157895
+Fold 1/10
+=== Base model ===
+epoch 0 loss: 0,69881 train_acc: 0,34074 val_acc: 0,33333 test: 0,32
+epoch 1 loss: 0,97114 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 2 loss: 0,86902 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 3 loss: 0,80845 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 4 loss: 0,81287 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 5 loss: 0,85492 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 6 loss: 0,8441 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 7 loss: 0,84467 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 8 loss: 0,85105 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 9 loss: 0,83858 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+Accuracy: 0,6842105263157895
+=== Experiment model ===
+process training
+epoch 0 loss: 0,70444 train_acc: 0,34074 test_acc: 0,33333
+epoch 1 loss: 0,77152 train_acc: 0,65926 test_acc: 0,66667
+epoch 2 loss: 0,80789 train_acc: 0,65926 test_acc: 0,66667
+epoch 3 loss: 0,81665 train_acc: 0,65926 test_acc: 0,66667
+epoch 4 loss: 0,82753 train_acc: 0,65926 test_acc: 0,66667
+epoch 5 loss: 0,82739 train_acc: 0,65926 test_acc: 0,66667
+epoch 6 loss: 0,82978 train_acc: 0,65926 test_acc: 0,66667
+epoch 7 loss: 0,82636 train_acc: 0,65926 test_acc: 0,66667
+epoch 8 loss: 0,83126 train_acc: 0,65926 test_acc: 0,66667
+epoch 9 loss: 0,83279 train_acc: 0,65926 test_acc: 0,66667
+process testing
+Accuracy: 0,6842105263157895
+Fold 2/10
+=== Base model ===
+epoch 0 loss: 0,696 train_acc: 0,34074 val_acc: 0,33333 test: 0,32
+epoch 1 loss: 0,68825 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 2 loss: 0,69423 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 3 loss: 0,70481 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 4 loss: 0,70682 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 5 loss: 0,70621 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 6 loss: 0,70189 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 7 loss: 0,69637 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 8 loss: 0,69351 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+epoch 9 loss: 0,69329 train_acc: 0,65926 val_acc: 0,66667 test: 0,68
+Accuracy: 0,6842105263157895
+=== Experiment model ===
+process training
+epoch 0 loss: 0,69167 train_acc: 0,31111 test_acc: 0,4
+epoch 1 loss: 0,68865 train_acc: 0,65926 test_acc: 0,66667
+epoch 2 loss: 0,70179 train_acc: 0,65926 test_acc: 0,66667
+epoch 3 loss: 0,69742 train_acc: 0,65926 test_acc: 0,66667
+epoch 4 loss: 0,695 train_acc: 0,65926 test_acc: 0,66667
+epoch 5 loss: 0,71222 train_acc: 0,65926 test_acc: 0,66667
+epoch 6 loss: 0,71311 train_acc: 0,65926 test_acc: 0,66667
+epoch 7 loss: 0,70401 train_acc: 0,65926 test_acc: 0,66667
+epoch 8 loss: 0,71072 train_acc: 0,65926 test_acc: 0,66667
+epoch 9 loss: 0,68444 train_acc: 0,65926 test_acc: 0,66667
+process testing
+Accuracy: 0,6842105263157895
+Fold 3/10
+=== Base model ===
+epoch 0 loss: 0,69344 train_acc: 0,34815 val_acc: 0,26667 test: 0,32
+epoch 1 loss: 0,70292 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 2 loss: 0,69943 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 3 loss: 0,69939 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 4 loss: 0,6961 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 5 loss: 0,6975 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 6 loss: 0,68255 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 7 loss: 0,67005 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 8 loss: 0,66268 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 9 loss: 0,66377 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+Accuracy: 0,6842105263157895
+=== Experiment model ===
+process training
+epoch 0 loss: 0,69188 train_acc: 0,65185 test_acc: 0,73333
+epoch 1 loss: 0,67364 train_acc: 0,65185 test_acc: 0,73333
+epoch 2 loss: 0,67717 train_acc: 0,65185 test_acc: 0,73333
+epoch 3 loss: 0,67468 train_acc: 0,65185 test_acc: 0,73333
+epoch 4 loss: 0,68073 train_acc: 0,65185 test_acc: 0,73333
+epoch 5 loss: 0,68779 train_acc: 0,65185 test_acc: 0,73333
+epoch 6 loss: 0,68322 train_acc: 0,65185 test_acc: 0,73333
+epoch 7 loss: 0,67228 train_acc: 0,65185 test_acc: 0,73333
+epoch 8 loss: 0,65311 train_acc: 0,65185 test_acc: 0,73333
+epoch 9 loss: 0,65257 train_acc: 0,65185 test_acc: 0,73333
+process testing
+Accuracy: 0,6842105263157895
+Fold 4/10
+=== Base model ===
+epoch 0 loss: 0,69417 train_acc: 0,33333 val_acc: 0,4 test: 0,32
+epoch 1 loss: 0,6911 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 2 loss: 0,68574 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 3 loss: 0,68963 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 4 loss: 0,68666 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 5 loss: 0,68927 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 6 loss: 0,68459 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 7 loss: 0,6785 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 8 loss: 0,67055 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 9 loss: 0,67417 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+Accuracy: 0,6842105263157895
+=== Experiment model ===
+process training
+epoch 0 loss: 0,69092 train_acc: 0,66667 test_acc: 0,53333
+epoch 1 loss: 0,67955 train_acc: 0,66667 test_acc: 0,6
+epoch 2 loss: 0,70134 train_acc: 0,66667 test_acc: 0,6
+epoch 3 loss: 0,69713 train_acc: 0,66667 test_acc: 0,6
+epoch 4 loss: 0,71032 train_acc: 0,66667 test_acc: 0,6
+epoch 5 loss: 0,71732 train_acc: 0,66667 test_acc: 0,6
+epoch 6 loss: 0,71693 train_acc: 0,66667 test_acc: 0,6
+epoch 7 loss: 0,71424 train_acc: 0,66667 test_acc: 0,6
+epoch 8 loss: 0,71553 train_acc: 0,66667 test_acc: 0,6
+epoch 9 loss: 0,71643 train_acc: 0,66667 test_acc: 0,6
+process testing
+Accuracy: 0,6842105263157895
+Fold 5/10
+=== Base model ===
+epoch 0 loss: 0,69835 train_acc: 0,36296 val_acc: 0,13333 test: 0,32
+epoch 1 loss: 0,78924 train_acc: 0,63704 val_acc: 0,86667 test: 0,68
+epoch 2 loss: 0,8092 train_acc: 0,63704 val_acc: 0,86667 test: 0,68
+epoch 3 loss: 0,81379 train_acc: 0,63704 val_acc: 0,86667 test: 0,68
+epoch 4 loss: 0,81695 train_acc: 0,63704 val_acc: 0,86667 test: 0,68
+epoch 5 loss: 0,80765 train_acc: 0,63704 val_acc: 0,86667 test: 0,68
+epoch 6 loss: 0,80041 train_acc: 0,63704 val_acc: 0,86667 test: 0,68
+epoch 7 loss: 0,80481 train_acc: 0,63704 val_acc: 0,86667 test: 0,68
+epoch 8 loss: 0,79858 train_acc: 0,63704 val_acc: 0,86667 test: 0,68
+epoch 9 loss: 0,78313 train_acc: 0,63704 val_acc: 0,86667 test: 0,68
+Accuracy: 0,6842105263157895
+=== Experiment model ===
+process training
+epoch 0 loss: 0,68778 train_acc: 0,36296 test_acc: 0,13333
+epoch 1 loss: 0,73442 train_acc: 0,63704 test_acc: 0,86667
+epoch 2 loss: 0,74452 train_acc: 0,63704 test_acc: 0,86667
+epoch 3 loss: 0,74463 train_acc: 0,63704 test_acc: 0,86667
+epoch 4 loss: 0,75078 train_acc: 0,63704 test_acc: 0,86667
+epoch 5 loss: 0,7466 train_acc: 0,64444 test_acc: 0,6
+epoch 6 loss: 0,79449 train_acc: 0,63704 test_acc: 0,86667
+epoch 7 loss: 0,8022 train_acc: 0,63704 test_acc: 0,86667
+epoch 8 loss: 0,82247 train_acc: 0,63704 test_acc: 0,86667
+epoch 9 loss: 0,78152 train_acc: 0,63704 test_acc: 0,86667
+process testing
+Accuracy: 0,6842105263157895
+Fold 6/10
+=== Base model ===
+epoch 0 loss: 0,69219 train_acc: 0,32593 val_acc: 0,46667 test: 0,32
+epoch 1 loss: 0,70611 train_acc: 0,67407 val_acc: 0,53333 test: 0,68
+epoch 2 loss: 0,73115 train_acc: 0,67407 val_acc: 0,53333 test: 0,68
+epoch 3 loss: 0,73483 train_acc: 0,67407 val_acc: 0,53333 test: 0,68
+epoch 4 loss: 0,74203 train_acc: 0,67407 val_acc: 0,53333 test: 0,68
+epoch 5 loss: 0,72731 train_acc: 0,67407 val_acc: 0,53333 test: 0,68
+epoch 6 loss: 0,72028 train_acc: 0,67407 val_acc: 0,53333 test: 0,68
+epoch 7 loss: 0,72461 train_acc: 0,67407 val_acc: 0,53333 test: 0,68
+epoch 8 loss: 0,72836 train_acc: 0,67407 val_acc: 0,53333 test: 0,68
+epoch 9 loss: 0,72881 train_acc: 0,67407 val_acc: 0,53333 test: 0,68
+Accuracy: 0,6842105263157895
+=== Experiment model ===
+process training
+epoch 0 loss: 0,6886 train_acc: 0,58519 test_acc: 0,53333
+epoch 1 loss: 0,68743 train_acc: 0,67407 test_acc: 0,53333
+epoch 2 loss: 0,68936 train_acc: 0,67407 test_acc: 0,53333
+epoch 3 loss: 0,70064 train_acc: 0,67407 test_acc: 0,53333
+epoch 4 loss: 0,70243 train_acc: 0,67407 test_acc: 0,53333
+epoch 5 loss: 0,72174 train_acc: 0,67407 test_acc: 0,53333
+epoch 6 loss: 0,7227 train_acc: 0,67407 test_acc: 0,53333
+epoch 7 loss: 0,72879 train_acc: 0,67407 test_acc: 0,53333
+epoch 8 loss: 0,71164 train_acc: 0,67407 test_acc: 0,53333
+epoch 9 loss: 0,71202 train_acc: 0,67407 test_acc: 0,53333
+process testing
+Accuracy: 0,6842105263157895
+Fold 7/10
+=== Base model ===
+epoch 0 loss: 0,6991 train_acc: 0,33333 val_acc: 0,4 test: 0,32
+epoch 1 loss: 0,83059 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 2 loss: 0,839 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 3 loss: 0,85679 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 4 loss: 0,86442 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 5 loss: 0,86449 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 6 loss: 0,8618 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 7 loss: 0,85733 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 8 loss: 0,8574 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 9 loss: 0,86164 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+Accuracy: 0,6842105263157895
+=== Experiment model ===
+process training
+epoch 0 loss: 0,69934 train_acc: 0,33333 test_acc: 0,4
+epoch 1 loss: 0,7806 train_acc: 0,66667 test_acc: 0,6
+epoch 2 loss: 0,79969 train_acc: 0,66667 test_acc: 0,6
+epoch 3 loss: 0,81659 train_acc: 0,66667 test_acc: 0,6
+epoch 4 loss: 0,83428 train_acc: 0,66667 test_acc: 0,6
+epoch 5 loss: 0,84657 train_acc: 0,66667 test_acc: 0,6
+epoch 6 loss: 0,85102 train_acc: 0,66667 test_acc: 0,6
+epoch 7 loss: 0,85237 train_acc: 0,66667 test_acc: 0,6
+epoch 8 loss: 0,85245 train_acc: 0,66667 test_acc: 0,6
+epoch 9 loss: 0,85209 train_acc: 0,66667 test_acc: 0,6
+process testing
+Accuracy: 0,6842105263157895
+Fold 8/10
+=== Base model ===
+epoch 0 loss: 0,69826 train_acc: 0,33333 val_acc: 0,4 test: 0,32
+epoch 1 loss: 0,867 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 2 loss: 0,86131 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 3 loss: 0,85543 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 4 loss: 0,86157 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 5 loss: 0,86023 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 6 loss: 0,85992 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 7 loss: 0,8637 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 8 loss: 0,86311 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+epoch 9 loss: 0,86245 train_acc: 0,66667 val_acc: 0,6 test: 0,68
+Accuracy: 0,6842105263157895
+=== Experiment model ===
+process training
+epoch 0 loss: 0,70052 train_acc: 0,33333 test_acc: 0,4
+epoch 1 loss: 0,81713 train_acc: 0,66667 test_acc: 0,6
+epoch 2 loss: 0,80203 train_acc: 0,66667 test_acc: 0,6
+epoch 3 loss: 0,80863 train_acc: 0,66667 test_acc: 0,6
+epoch 4 loss: 0,82062 train_acc: 0,66667 test_acc: 0,6
+epoch 5 loss: 0,83715 train_acc: 0,66667 test_acc: 0,6
+epoch 6 loss: 0,84699 train_acc: 0,66667 test_acc: 0,6
+epoch 7 loss: 0,84951 train_acc: 0,66667 test_acc: 0,6
+epoch 8 loss: 0,85038 train_acc: 0,66667 test_acc: 0,6
+epoch 9 loss: 0,84987 train_acc: 0,66667 test_acc: 0,6
+process testing
+Accuracy: 0,6842105263157895
+Fold 9/10
+=== Base model ===
+epoch 0 loss: 0,69267 train_acc: 0,34815 val_acc: 0,26667 test: 0,32
+epoch 1 loss: 0,69137 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 2 loss: 0,70413 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 3 loss: 0,70464 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 4 loss: 0,70963 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 5 loss: 0,71042 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 6 loss: 0,71315 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 7 loss: 0,71217 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 8 loss: 0,70621 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+epoch 9 loss: 0,70501 train_acc: 0,65185 val_acc: 0,73333 test: 0,68
+Accuracy: 0,6842105263157895
+=== Experiment model ===
+process training
+epoch 0 loss: 0,6985 train_acc: 0,34815 test_acc: 0,26667
+epoch 1 loss: 0,68858 train_acc: 0,65185 test_acc: 0,73333
+epoch 2 loss: 0,69136 train_acc: 0,65185 test_acc: 0,73333
+epoch 3 loss: 0,70345 train_acc: 0,65185 test_acc: 0,73333
+epoch 4 loss: 0,71413 train_acc: 0,65185 test_acc: 0,73333
+epoch 5 loss: 0,70637 train_acc: 0,65185 test_acc: 0,73333
+epoch 6 loss: 0,69647 train_acc: 0,65185 test_acc: 0,73333
+epoch 7 loss: 0,71382 train_acc: 0,65185 test_acc: 0,73333
+epoch 8 loss: 0,69861 train_acc: 0,65185 test_acc: 0,73333
+epoch 9 loss: 0,70178 train_acc: 0,65185 test_acc: 0,73333
+process testing
+Accuracy: 0,6842105263157895
