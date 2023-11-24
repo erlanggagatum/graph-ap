@@ -57,6 +57,7 @@ def calculate_hitpath(G, s, e, max_steps = 10, max_iter = 100, transition_probab
     
     hitting_distance = []
     
+    random.seed(42)  
     for _ in range(max_iter):
         # print(f'iter {_}')
         
